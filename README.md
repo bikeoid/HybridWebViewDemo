@@ -1,1 +1,1 @@
-For bug reportl.   Based on original at https://github.com/dotnet/maui-samples/tree/main/10.0/UserInterface/Views/HybridWebViewDemo
+For bug report.   Based on original at https://github.com/dotnet/maui-samples/tree/main/10.0/UserInterface/Views/HybridWebViewDemo
