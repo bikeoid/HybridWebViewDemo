@@ -50,7 +50,7 @@ public partial class MainPage : ContentPage
 
         Dispatcher.Dispatch(() => editor.Text += "Test 3: Passing serialized JSON object...");
         string[] addrs = { "address1", "address2", "address3" };
-        //testString = JsonSerializer.Serialize(addrs);
+        testString = JsonSerializer.Serialize(addrs);
         res = await hybridWebView.InvokeJavaScriptAsync<String>(
             "StringsFromCSharp", // JavaScript method name
             HybridSampleJSContext.Default.String, // JSON serialization info for return type
